@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
 
-puts "hello world"
+# Display a prompt
+print "Please enter your name: "
+
+name = gets
+puts "hello world, " + name
 
